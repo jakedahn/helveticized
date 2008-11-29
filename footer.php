@@ -1,5 +1,6 @@
 
 </div>
+</div>
 <script src="http://jakedahn.com/mint/?js" type="text/javascript"></script>
 
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
