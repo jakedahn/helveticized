@@ -12,7 +12,7 @@ AUTHOR URI: http://hyperboledesign.com
 @import url("css/reset.css");
 
 body {
-	background: url(../images/background.gif);
+	background: url(images/background.gif);
 	margin: 0;
 	color: #555555;
 	font-family: Georgia, "Times New Roman", Times, serif;
