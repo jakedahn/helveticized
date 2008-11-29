@@ -5,7 +5,6 @@ TEMPLATE NAME: Archives
 ?>
 <?php get_header(); ?>
 	
-	<div id="container">
 
 		<div id="content">
 
@@ -23,14 +22,13 @@ TEMPLATE NAME: Archives
 					<ul>
 						<?php wp_get_archives('type=monthly'); ?>
 					</ul>
-					<!-- <?php trackback_rdf(); ?> -->
-				</div><!-- END POST-ENTRY -->
-			</div><!-- END POST -->
+				</div>
+			</div>
 
 <?php endwhile; endif; ?>
 
-		</div><!-- END CONTENT -->
-	</div><!-- END CONTAINER  -->
+		</div>
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

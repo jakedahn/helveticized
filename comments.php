@@ -119,8 +119,8 @@ foreach ($comments as $comment) {
 
 <?php do_action('comment_form', $post->ID); ?>
 
-		</form><!-- END COMMENTFORM -->
-	</div><!-- END FORMCONTAINER -->
+		</form>
+	</div>
 
 <?php endif; ?>
 <?php endif; ?>

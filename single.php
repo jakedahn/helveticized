@@ -9,7 +9,6 @@
 				<div class="post-entry">
 					<?php the_content('<span class="more-link">Continue Reading &raquo;</span>'); ?>
 					<?php link_pages('<p class="page-link">Pages: ', '</p>', 'number'); ?>
-					
 				</div>
 				<blockquote class="single-post-footer">
 				<p>	This entry was posted on <?php the_time('l, F jS, Y') ?> at <?php the_time() ?> and is filed under <?php the_category(', ') ?>. You can follow any responses to this entry through the <?php comments_rss_link('RSS 2.0'); ?> feed.

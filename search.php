@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 	
-	<div id="container">
 
 		<div id="content">
 
@@ -33,13 +32,13 @@
 					<form id="search-searchform" method="get" action="<?php bloginfo('home'); ?>/">
 						<p><input id="search-s" name="search-s" type="text" value="<?php echo wp_specialchars($s, 1); ?>" tabindex="1" size="20" /> <input id="search-searchsubmit" name="search-searchsubmit" type="submit" value="Find" tabindex="2" /></p>
 					</form> 
-				</div><!-- END POST-ENTRY  -->
-			</div><!-- END POST -->
+				</div>
+			</div>
 
 <?php endif; ?>
 
-		</div><!-- END CONTENT -->
-	</div><!-- END CONTAINER  -->
+		</div>
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

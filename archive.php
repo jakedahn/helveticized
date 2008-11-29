@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 	
-	<div id="container">
 
 		<div id="content">
 
@@ -27,9 +26,9 @@
 <?php endwhile; ?>
 
 			<div class="navigation">
-				<div class="nav-left"><?php next_posts_link('&laquo; Older posts') ?></div>
-				<div class="nav-right"><?php previous_posts_link('Newer posts &raquo;') ?></div>
-			</div><!-- END NAVIGATION -->
+      	<div class="nav-left"><h4 class="nav"><?php next_posts_link('&laquo; Older posts') ?></h4></div>
+      	<div class="nav-right"><h4 class="nav"><?php previous_posts_link('Newer posts &raquo;') ?></h4></div>
+      </div>
 	
 <?php else : ?>
 
@@ -37,13 +36,13 @@
 				<h2 class="post-title">Not Found</h2>
 				<div class="post-entry">
 					<p>Apologies. But something you were looking for just can't be found. Please have a look around or try searching for what you're looking for.</p>
-				</div><!-- END POST-ENTRY  -->
-			</div><!-- END POST -->
+				</div>
+			</div>
 
 <?php endif; ?>
 		
-		</div><!-- END CONTENT -->
-	</div><!-- END CONTAINER  -->
+		</div>
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
