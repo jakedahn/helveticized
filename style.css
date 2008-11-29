@@ -1,5 +1,3 @@
-/* @override http://looce.com/jd/wp-content/themes/jakedahn6/style.css */
-
 /*  
 THEME NAME: Helveticized 
 THEME URI: http://www.jakedahn.com
@@ -20,9 +18,7 @@ body {
 	line-height: 21px;
 }
 
-img {
-	border: none;
-}
+img {	border: none;}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
@@ -31,31 +27,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 36px;}
-h2 { font-size: 60px;
-	margin-top: 40px;
-	line-height: 60px;
-}
+h2 { font-size: 60px;	margin-top: 40px; line-height: 60px;}
 h3 { font-size: 24px; margin-top: -31px;}
-h4 { font-size: 18px; border-bottom: 1px dotted #999999;
-padding-bottom: 20px;}
+h4 { font-size: 18px; border-bottom: 1px dotted #999999; padding-bottom: 20px;}
+h5 { font-size: 14px; margin: 0;}
+h1 a, h2 a, h3 a, h4 a, h5 a { color: #000000;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover { color: #444444;}
 
 h4.nav {
 	border: none;
 	margin: 0;
 	padding: 0;
 }
-h5 { font-size: 14px; margin: 0;}
 
-h1 a, h2 a, h3 a, h4 a, h5 a {
-	color: #000000;
-}
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
-	color: #444444;
-}
-
-span.slash {
-	color: #888888;
-}
+span.slash { color: #888888; }
 
 a {
 	color: #c41d20;
@@ -115,13 +100,7 @@ p.comment-author {
 	margin-top: 0;
 }
 
-
-
-p.comment-metadata {
-	font-size: 10px;
-
-}
-
+p.comment-metadata { font-size: 10px; }
 
 blockquote {
 	
@@ -141,6 +120,7 @@ blockquote {
 
 #sidebar a { color: #666666;}
 #sidebar a:hover { color: #000000;}
+
 .search {
 	margin-bottom: 20px;
 }
