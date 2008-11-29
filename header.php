@@ -9,6 +9,8 @@
     <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
     <link rel="start" href="<?php echo get_settings('home'); ?>/" title="<?php bloginfo('name'); ?>" />
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS 2.0 Feed" href="<?php bloginfo('rss2_url'); ?>" />
+    <link rel="openid.server" href="http://openid.claimid.com/server" />
+		<link rel="openid.delegate" href="http://openid.claimid.com/jakedahn" />
   </head>
   <body>
   <div id="wrapper">
