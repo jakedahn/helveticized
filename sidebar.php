@@ -1,4 +1,6 @@
 <div id="sidebar">
+<?php if ( !function_exists('dynamic_sidebar')
+        || !dynamic_sidebar() ) : ?>
   
   <div class="search">
 		<h5><label for="s">Search <span class="slash"> /</span></label></h5>
@@ -31,6 +33,8 @@
     <h5>Subscribe <span class="slash"> /</span></h5>
     <a href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> RSS 2.0 Feed" rel="alternate" type="application/rss+xml">RSS</a>
 	</div>
+<?php endif; ?>
+
 
 
 
